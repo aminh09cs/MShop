@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 namespace DataAccess.MShop.UnitOfWork
 {
     public class MShopUnitOfWork : IMShopUnitOfWork, IDisposable
-    {
+    {   
         private MShopDBContext _dbContext;
-        public IPostRepository _postRepository { get; set; }
+        public ICustomerRepository _customerRepository { get; set; }
 
-        public MShopUnitOfWork(MShopDBContext dbContext, IPostRepository postRepository)
+        public MShopUnitOfWork(MShopDBContext dbContext, ICustomerRepository customerRepository)
         {
             _dbContext = dbContext;
-            _postRepository = postRepository;
+            _customerRepository = customerRepository;
         }
 
         public int SaveChange()

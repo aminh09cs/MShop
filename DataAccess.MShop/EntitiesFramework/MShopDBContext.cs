@@ -14,7 +14,7 @@ namespace DataAccess.MShop.EntitiesFramework
         {
         }
         protected override void OnModelCreating(ModelBuilder builder) { base.OnModelCreating(builder); }
-        public DbSet<Post>? Post { get; set; }
+        public DbSet<Customer>? Customer { get; set; }
     }
 
 }

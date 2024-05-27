@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DataAccess.MShop.IServices
 {
-    public interface IPostRepository
+    public interface ICustomerRepository
     {
-        Task<List<Post>> GetPosts();
-        Task<int> CreatePost(Post post);
+        Task<Customer> Login(CustomerLogin_RequestData requestData);
+        Task<int> UpdateRefreshTokenExpired(UpdateRefreshTokenExpired_RequestData requestData);
 
     }
 }

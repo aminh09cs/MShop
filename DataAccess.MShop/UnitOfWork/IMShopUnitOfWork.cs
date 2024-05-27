@@ -9,7 +9,7 @@ namespace DataAccess.MShop.UnitOfWork
 {
     public interface IMShopUnitOfWork
     {
-        public IPostRepository _postRepository { get; set; }
+        public ICustomerRepository _customerRepository { get; set; }
         int SaveChange();
     }
 }

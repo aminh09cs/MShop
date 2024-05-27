@@ -15,4 +15,8 @@
     <ProjectReference Include="..\DataAccess.MShop\DataAccess.MShop.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
