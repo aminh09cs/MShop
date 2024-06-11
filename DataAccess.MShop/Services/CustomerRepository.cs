@@ -40,6 +40,7 @@ namespace DataAccess.MShop.Services
 
         public async Task<int> UpdateRefreshTokenExpired(UpdateRefreshTokenExpired_RequestData requestData)
         {
+            var result = 0;
             try
             {
                 var customer = _dbContext.Customer
@@ -52,12 +53,12 @@ namespace DataAccess.MShop.Services
 
                     _dbContext.Update(customer);
                 }
-                return 1;
+                return result = 1;
             }
             catch (Exception)
             {
 
-                return -99;
+                return result = -99;
             }
         }
     }

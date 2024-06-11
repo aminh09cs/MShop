@@ -3,12 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MShop", "MShop\MShop.csproj", "{2D15E3D3-82F8-4D85-819D-8CF8E26D65B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MShop", "MShop\MShop.csproj", "{2D15E3D3-82F8-4D85-819D-8CF8E26D65B9}"
 	ProjectSection(ProjectDependencies) = postProject
+		{944C7A7D-3AF9-4B7E-90A7-C5E89B46897F} = {944C7A7D-3AF9-4B7E-90A7-C5E89B46897F}
 		{ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4} = {ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.MShop", "DataAccess.MShop\DataAccess.MShop.csproj", "{ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.MShop", "DataAccess.MShop\DataAccess.MShop.csproj", "{ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibs", "CommonLibs\CommonLibs.csproj", "{944C7A7D-3AF9-4B7E-90A7-C5E89B46897F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +27,10 @@ Global
 		{ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECB660EE-5DD8-4694-BE78-4A3B92D5D0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944C7A7D-3AF9-4B7E-90A7-C5E89B46897F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944C7A7D-3AF9-4B7E-90A7-C5E89B46897F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944C7A7D-3AF9-4B7E-90A7-C5E89B46897F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944C7A7D-3AF9-4B7E-90A7-C5E89B46897F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

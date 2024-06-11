@@ -24,6 +24,14 @@ namespace DataAccess.MShop.Entities
         public string username { get; set; }
         public string password { get; set; }
     }
+    public class CustomerLogin_ReturnData
+    {
+        public string username { get; set; }
+        public string token { get; set; }
+        public string refresh_token { get; set; }
+        public string email { get; set; }
+
+    }
 
     public class UpdateRefreshTokenExpired_RequestData
     {
